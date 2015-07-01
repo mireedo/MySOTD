@@ -87,7 +87,7 @@ public class category extends SQLiteOpenHelper {
         ArrayList array_list = new ArrayList();
         //hp = new HashMap();
         SQLiteDatabase db = this.getReadableDatabase();
-        Cursor res =  db.rawQuery( "select * from contacts", null );
+        Cursor res =  db.rawQuery( "select * from category", null );
         res.moveToFirst();
         while(res.isAfterLast() == false){
             array_list.add(res.getString(res.getColumnIndex(CATEGORY_COLUMN_CATEGORYNAME)));
