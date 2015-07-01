@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
 import com.team5.mysotd.R;
 
@@ -14,6 +15,9 @@ import com.team5.mysotd.R;
  */
 public class ShaveDen extends Fragment {
     View rootview;
+    private ListView mDrawerListView;
+    private View mFragmentContainerView;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

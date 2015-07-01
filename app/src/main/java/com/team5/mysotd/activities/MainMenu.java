@@ -58,7 +58,8 @@ public class MainMenu extends ActionBarActivity
                 fragment = new MySOTD();
                 break;
             case 2:
-                fragment = PlaceholderFragment.newInstance(position+1);
+                mTitle = "Shave Den";
+                fragment = new ShaveDen();
                 break;
         }
         FragmentManager fragmentManager = getSupportFragmentManager();
