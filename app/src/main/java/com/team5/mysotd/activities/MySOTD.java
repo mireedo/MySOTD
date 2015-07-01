@@ -1,4 +1,4 @@
-package com.team5.mysotd;
+package com.team5.mysotd.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -6,6 +6,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.team5.mysotd.R;
 
 /**
  * Created by Mira on 6/29/2015.
