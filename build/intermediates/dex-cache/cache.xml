@@ -2,13 +2,6 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Mira\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="C:\Users\Mira\AndroidStudioProjects\MySOTD\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-af2a055e9082593eeceaded21d044ce053bc94d9.jar" />
-    </item>
-    <item
         jar="C:\Users\Mira\AndroidStudioProjects\MySOTD\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -16,18 +9,11 @@
         <dex dex="C:\Users\Mira\AndroidStudioProjects\MySOTD\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-55f699ee3abd73073e848fba7f82dd7f3432c26b.jar" />
     </item>
     <item
-        jar="C:\Users\Mira\AndroidStudioProjects\MySOTD\app\build\intermediates\exploded-aar\com.getbase\floatingactionbutton\1.9.1\jars\classes.jar"
+        jar="C:\Users\Mira\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="d4b681a6084ef53d2825520fc77fcaddde351f64">
-        <dex dex="C:\Users\Mira\AndroidStudioProjects\MySOTD\app\build\intermediates\pre-dexed\debug\classes-d11e86702a64384226c6a14b6fe54ebed167e4dc.jar" />
-    </item>
-    <item
-        jar="C:\Users\Mira\AndroidStudioProjects\MySOTD\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="C:\Users\Mira\AndroidStudioProjects\MySOTD\app\build\intermediates\pre-dexed\debug\classes-6bcb0c845b6036da7a8ede24c98892ad49993b07.jar" />
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Mira\AndroidStudioProjects\MySOTD\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-af2a055e9082593eeceaded21d044ce053bc94d9.jar" />
     </item>
     <item
         jar="C:\Users\Mira\AndroidStudioProjects\MySOTD\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
@@ -35,6 +21,13 @@
         revision="22.0.1"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
         <dex dex="C:\Users\Mira\AndroidStudioProjects\MySOTD\app\build\intermediates\pre-dexed\debug\classes-86ad117e4bfd7a8d0c5483f7bdfc0a08d3d5c29b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mira\AndroidStudioProjects\MySOTD\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Mira\AndroidStudioProjects\MySOTD\app\build\intermediates\pre-dexed\debug\classes-6bcb0c845b6036da7a8ede24c98892ad49993b07.jar" />
     </item>
 
 </items>
