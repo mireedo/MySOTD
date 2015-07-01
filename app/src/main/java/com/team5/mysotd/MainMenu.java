@@ -1,22 +1,17 @@
 package com.team5.mysotd;
 
 import android.app.Activity;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.content.Context;
-import android.os.Build;
-import android.os.Bundle;
-import android.view.Gravity;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.support.v4.widget.DrawerLayout;
-import android.widget.ArrayAdapter;
-import android.widget.TextView;
 
 
 public class MainMenu extends ActionBarActivity
@@ -30,7 +25,7 @@ public class MainMenu extends ActionBarActivity
     /**
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
      */
-    private CharSequence mTitle;
+    private CharSequence mTitle = getTitle();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,10 +48,12 @@ public class MainMenu extends ActionBarActivity
         Fragment fragment = null;
         switch (position){
             case 0:
+                mTitle = "Shave Den";
                 fragment = new ShaveDen();
                 break;
             case 1:
-                fragment = PlaceholderFragment.newInstance(position+1);
+                mTitle = "My SOTD";
+                fragment = new MySOTD();
                 break;
             case 2:
                 fragment = PlaceholderFragment.newInstance(position+1);
